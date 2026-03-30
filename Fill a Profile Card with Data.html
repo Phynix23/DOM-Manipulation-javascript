@@ -2,14 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Exercise 5</title>
+    <title>Exercise 6</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="p-10 space-y-4">
+  <body class="p-10 bg-gray-100 min-h-screen flex items-center justify-center">
 
-    <div class="card bg-white rounded-xl shadow p-5 text-gray-700">Card One</div>
-    <div class="card bg-white rounded-xl shadow p-5 text-gray-700">Card Two</div>
-    <div class="card bg-white rounded-xl shadow p-5 text-gray-700">Card Three</div>
+    <div class="bg-white rounded-2xl shadow-lg p-8 max-w-sm w-full text-center">
+      <div class="w-16 h-16 bg-blue-100 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl">
+        👤
+      </div>
+      <h2 id="name"  class="text-xl font-bold text-gray-800"></h2>
+      <p  id="role"  class="text-blue-500 text-sm mt-1"></p>
+      <p  id="email" class="text-gray-400 text-sm mt-1"></p>
+    </div>
 
     <script>
       const person = {
